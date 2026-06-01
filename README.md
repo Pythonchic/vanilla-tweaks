@@ -1,4 +1,4 @@
-# Vanilla Revival — Source code
+# Vanilla Tweaks — Source code
 
 **Philosophy:** give a second life to the forgotten mechanics of vanilla Minecraft.
 
