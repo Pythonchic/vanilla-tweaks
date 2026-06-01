@@ -22,6 +22,7 @@ public class RawMeatMixin {
     @Inject(method = "finishUsing", at = @At("HEAD"))
     private void onFinishUsing(ItemStack stack, World world, net.minecraft.entity.LivingEntity user, CallbackInfoReturnable<ItemStack> cir) {
         if (!(user instanceof PlayerEntity player)) return;
+        if (world.isClient()) return; // Только на серверной стороне!
 
         Item food = stack.getItem();
 
