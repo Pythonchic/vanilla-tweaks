@@ -33,9 +33,9 @@ The crafting of copper, iron, gold and diamond horse armor has been returned to 
 Experience Bottles: one echo shard + eight empty bottles.
 Invisible frame: one frame + one phantom membrane.
 Bundle: 5 rabbit skin + thread (instead of regular leather).
-Light block 15: glowstone + sea lantern + froglight + shroomlight
-Light block 10: glowstone + sea lantern + froglight + soul lantern
-Light block 7: glowstone + sea lantern + froglight + redstone torch(can be edited later or deleted)
+Light block 15: glowstone + sea lantern + froglight + shroomlight.
+Light block 10: glowstone + sea lantern + froglight + soul lantern.
+Light block 7: glowstone + sea lantern + froglight + redstone torch(can be edited later or deleted).
 
 ---
 
