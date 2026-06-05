@@ -6,7 +6,7 @@
 
 ## 🐴 Horse breeding
 
-The foal's speed is now calculated using the formula (father + mother) / 2 × 1.2, but does not exceed 30 blocks per second. All values of speeds and multipliers are stored in a separate HorseValues file.java` — can be easily customized to your server.
+The foal's speed is now calculated using the formula (father + mother) / 2 × 1.2, but does not exceed 30 blocks per second.
 
 ---
 
