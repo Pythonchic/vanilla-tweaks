@@ -1,4 +1,4 @@
-package com.example.vanillatweaks.mixin.item;
+package com.example.missedpotential.mixin.item;
 
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;

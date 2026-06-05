@@ -1,8 +1,8 @@
 {
 	"schemaVersion": 1,
-	"id": "vanilla-tweaks",
+	"id": "missed-potential",
 	"version": "${version}",
-	"name": "Vanilla Tweaks",
+	"name": "Missed Potential",
 	"description": "This is an example description! Tell everyone what your mod is about!",
 	"authors": [
 		"Me!"
@@ -16,16 +16,16 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.example.vanillatweaks.VanillaTweaks"
+			"com.example.missedpotential.MissedPotential"
 		],
 		"client": [
-			"com.example.vanillatweaks.client.VanillaTweaksClient"
+			"com.example.missedpotential.client.MissedPotentialClient"
 		]
 	},
 	"mixins": [
-		"vanilla-tweaks.mixins.json",
+		"missed-potential.mixins.json",
 		{
-			"config": "vanilla-tweaks.client.mixins.json",
+			"config": "missed-potential.client.mixins.json",
 			"environment": "client"
 		}
 	],

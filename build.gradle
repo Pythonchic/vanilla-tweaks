@@ -18,7 +18,7 @@ loom {
 	splitEnvironmentSourceSets()
 
 	mods {
-		"nekoma" {
+		"missed-potential" {
 			sourceSet sourceSets.main
 			sourceSet sourceSets.client
 		}

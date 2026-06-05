@@ -1,4 +1,4 @@
-# Vanilla Tweaks — Source code
+# Missed Potential — Source code
 
 **Philosophy:** give a second life to the forgotten mechanics of vanilla Minecraft.
 

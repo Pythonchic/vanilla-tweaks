@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_iron_ingot": {
+    "has_item": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": "minecraft:glowstone_dust"
+            "items": "minecraft:rabbit_hide"
           }
         ]
       }
@@ -14,19 +14,19 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "vanilla-tweaks:spectral_arrow"
+        "recipe": "minecraft:bundle"
       }
     }
   },
   "requirements": [
     [
-      "has_iron_ingot",
+      "has_item",
       "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
-      "vanilla-tweaks:spectral_arrow"
+      "minecraft:bundle"
     ]
   }
 }

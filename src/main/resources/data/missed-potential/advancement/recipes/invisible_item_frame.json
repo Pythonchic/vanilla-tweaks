@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_iron_ingot": {
+    "has_item": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -14,19 +14,19 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "vanilla-tweaks:invisible_item_frame"
+        "recipe": "missed-potential:invisible_item_frame"
       }
     }
   },
   "requirements": [
     [
-      "has_iron_ingot",
+      "has_item",
       "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
-      "vanilla-tweaks:invisible_item_frame"
+      "missed-potential:invisible_item_frame"
     ]
   }
 }

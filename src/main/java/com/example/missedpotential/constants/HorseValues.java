@@ -1,4 +1,4 @@
-package com.example.vanillatweaks.constants;
+package com.example.missedpotential.constants;
 
 public class HorseValues {
     // Максимальная скорость естественных лошадей (б/с)

@@ -1,4 +1,4 @@
-package com.example.vanillatweaks.mixin.item;
+package com.example.missedpotential.mixin.item;
 
 import net.minecraft.component.ComponentMap;
 import net.minecraft.component.DataComponentTypes;

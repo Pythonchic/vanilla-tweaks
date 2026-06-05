@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_iron_ingot": {
+    "has_item": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -14,19 +14,19 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "vanilla-tweaks:iron_horse_armor"
+        "recipe": "missed-potential:iron_horse_armor"
       }
     }
   },
   "requirements": [
     [
-      "has_iron_ingot",
+      "has_item",
       "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
-      "vanilla-tweaks:iron_horse_armor"
+      "missed-potential:iron_horse_armor"
     ]
   }
 }

@@ -1,4 +1,4 @@
-package com.example.vanillatweaks.mixin.entity;
+package com.example.missedpotential.mixin.entity;
 
 import net.minecraft.entity.mob.PhantomEntity;
 import net.minecraft.util.math.BlockPos;

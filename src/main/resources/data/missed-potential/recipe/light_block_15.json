@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:glowstone",
+    "minecraft:sea_lantern",
+    "minecraft:shroomlight",
+    "#missed-potential:froglights"
+  ],
+  "result": {
+    "id": "minecraft:light",
+    "count": 1,
+    "components": {
+      "minecraft:block_state": {
+        "level": "15"
+      }
+    }
+  }
+}

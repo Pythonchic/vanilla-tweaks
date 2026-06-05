@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_items": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": "minecraft:glowstone" },
+          { "items": "minecraft:sea_lantern" },
+          { "items": "#missed-potential:froglights" }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "missed-potential:light_block_7"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_items",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "missed-potential:light_block_7",
+      "missed-potential:light_block_10",
+      "missed-potential:light_block_15"
+    ]
+  }
+}
